@@ -1,6 +1,6 @@
 import ChartOverview from "@/components/chart";
 import { Sales } from "@/components/sales";
-import { Button } from "@/components/ui/button";
+
 import {
   Card,
   CardContent,
@@ -9,7 +9,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { BadgeDollarSign, DollarSign, Percent, Users } from "lucide-react";
-import Image from "next/image";
 
 export default function Home() {
   return (
